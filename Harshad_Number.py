@@ -4,6 +4,6 @@ def sumOfTheDigitsOfHarshadNumber(self, x: int) -> int:
         for i in range(len(a)):
             s+=int(a[i])
         if x%s==0:
-            return x
+            return s
         else:
             return -1
